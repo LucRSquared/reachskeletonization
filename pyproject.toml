@@ -1,0 +1,22 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Luc Rébillout", email = "luc@ncche.olemis.edu"},
+]
+dependencies = [
+    "sqlalchemy>=2.0.19",
+    "psycopg2-binary>=2.9.7",
+    "geopandas>=0.13.2",
+    "ipykernel>=6.25.1",
+    "folium>=0.14.0",
+    "matplotlib>=3.7.2",
+    "mapclassify>=2.6.0",
+    "ladybug-geometry-polyskel>=1.4.26",
+    "networkx>=3.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
